@@ -1,0 +1,11 @@
+.image-upload {
+  margin: 20px 0;
+}
+
+.file-input {
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}

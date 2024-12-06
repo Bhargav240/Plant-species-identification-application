@@ -1,0 +1,78 @@
+/* PlantInfo.css */
+.plant-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.plant-info-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.plant-info-title {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 1rem;
+}
+
+.info-section {
+  margin-bottom: 2rem;
+}
+
+.info-item {
+  margin-bottom: 1.5rem;
+}
+
+.info-item h3 {
+  color: #34495e;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-item p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.info-item.description p,
+.info-item.uses p {
+  text-align: justify;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .plant-info-container {
+    padding: 1rem;
+  }
+
+  .plant-info-card {
+    padding: 1.5rem;
+  }
+
+  .plant-info-title {
+    font-size: 2rem;
+  }
+
+  .info-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .info-item p {
+    font-size: 1rem;
+  }
+}
